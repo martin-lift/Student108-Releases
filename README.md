@@ -1,2 +1,24 @@
-# Student108-Releases
-Public Windows installation packages for Student108. Development / testing builds. Source code is maintained separately.
+# Student108 — инсталационни пакети
+
+Публично хранилище само за готовите Windows пакети на Student108.
+Изходният код се поддържа в отделно частно хранилище.
+
+## Изтегляне
+
+Отворете [Releases](https://github.com/martin-lift/Student108-Releases/releases).
+Всяка публикувана версия съдържа:
+
+- `Student108-Windows.zip` — готово приложение, включени библиотеки и manifest с SHA256 на файловете;
+- `SHA256SUMS.txt` — SHA256 на ZIP пакета.
+
+Classroom108 използва това хранилище автоматично, без GitHub token.
+Инсталирането е за всички Windows потребители в `C:\Program Files\Student108`.
+Адресът на Teacher108 се задава от Classroom108 и не е включен в публичния пакет.
+
+## Статус
+
+**Приложението все още се разработва.** Предварителните версии са за изпитване
+на инсталирането и функциите; не означават готовност за работа с клас.
+Пакетите не включват ученически акаунти, резултати, бази или пароли.
+
+[Инструкции за инсталацията и Windows мрежата](https://github.com/martin-lift/Learn108/tree/main/docs/installation).
